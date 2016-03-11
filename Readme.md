@@ -1,12 +1,17 @@
-# HTML Starterkit with Bower and Gulp
+# HTML Starterkit with Bower and Gulp (with Less)
 This starterkit was developed for easy setting up small test environments with Bower and Gulp. I use this kit when trying new stuff in the JS-world or testing out random APIs.
 
 ## Install dependencies
 
 Dev dependencies are:
 - gulp
+- del
+- gulp-concat
+- gulp-less
 - gulp-rename
 - gulp-strip-comments
+- gulp-sourcemaps
+- less-plugin-autoprefixer
 
 Run `npm install` in root directory. After this you'll get a new directory `./node_modules` where all npm modules are installed.
 
